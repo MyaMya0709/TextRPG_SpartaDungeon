@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRPG_SpartaDungeon", "TextRPG_SpartaDungeon\TextRPG_SpartaDungeon.csproj", "{DD739A60-CDC5-4BCD-B0A1-78D921C2A1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice4_01", "Practice4_01\Practice4_01.csproj", "{EB26E0A2-8E93-4A41-B064-6136CDA5CA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{E3F2F8BA-81C9-4760-874A-C1E0C5494C53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD739A60-CDC5-4BCD-B0A1-78D921C2A1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD739A60-CDC5-4BCD-B0A1-78D921C2A1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD739A60-CDC5-4BCD-B0A1-78D921C2A1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD739A60-CDC5-4BCD-B0A1-78D921C2A1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB26E0A2-8E93-4A41-B064-6136CDA5CA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB26E0A2-8E93-4A41-B064-6136CDA5CA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB26E0A2-8E93-4A41-B064-6136CDA5CA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB26E0A2-8E93-4A41-B064-6136CDA5CA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F2F8BA-81C9-4760-874A-C1E0C5494C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F2F8BA-81C9-4760-874A-C1E0C5494C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F2F8BA-81C9-4760-874A-C1E0C5494C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F2F8BA-81C9-4760-874A-C1E0C5494C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
