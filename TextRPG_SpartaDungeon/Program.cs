@@ -112,7 +112,8 @@ namespace TextRPG_SpartaDungeon
         public void ShowStartScene()
         {
             Console.Clear();
-            Console.WriteLine("스파르타 마을에 오신 여러분 환영합니다.\n이곳에서 던전으로 들어가기전 활동을 할 수 있습니다.");
+            Console.WriteLine("스파르타 마을에 오신 여러분 환영합니다");
+            Console.WriteLine("이곳에서 던전으로 들어가기전 활동을 할 수 있습니다.");
             Console.WriteLine("\n1. 상태 보기");
             Console.WriteLine("2. 인벤토리");
             Console.WriteLine("3. 상점");
@@ -126,18 +127,19 @@ namespace TextRPG_SpartaDungeon
 
                 switch (sellecNumber)
                 {
+                    //상태창으로 이동
                     case 1:
                         StatusDisPlay(player);
                         break;
-
+                    //인벤토리창으로 이동
                     case 2:
                         InvenDisPlay(inventory);
                         break;
-
+                    //상점창으로 이동
                     case 3:
                         StoreDisplay(player, inventory);
                         break;
-
+                    //그 외 명령어 입력시 출력
                     default:
                         Console.WriteLine("잘못된 입력입니다");
                         break;
@@ -167,10 +169,11 @@ namespace TextRPG_SpartaDungeon
 
                 switch (sellecNumber)
                 {
+                    //마을창으로 돌아가기
                     case 0:
                         ShowStartScene();
                         break;
-                    
+                    //그 외 명령어 입력시 출력
                     default:
                         Console.WriteLine("잘못된 입력입니다");
                         break;
@@ -203,12 +206,15 @@ namespace TextRPG_SpartaDungeon
 
                 switch (sellecNumber)
                 {
+                    //마을창으로 돌아가기
                     case 0:
                         ShowStartScene();
                         break;
+                    //장착 관리창으로 이동
                     case 1:
                         EquipDisPlay(inventory);
                         break;
+                    //그 외 명령어 입력시 출력
                     default:
                         Console.WriteLine("잘못된 입력입니다");
                         break;
@@ -243,10 +249,11 @@ namespace TextRPG_SpartaDungeon
 
                 switch (sellecNumber)
                 {
+                    //마을창으로 돌아가기
                     case 0:
                         ShowStartScene();
                         break;
-                    
+                    //그 외 명령어 입력시 출력
                     default:
                         Console.WriteLine("잘못된 입력입니다");
                         break;
@@ -285,12 +292,15 @@ namespace TextRPG_SpartaDungeon
 
                 switch (sellecNumber)
                 {
+                    //마을창으로 돌아가기
                     case 0:
                         ShowStartScene();
                         break;
                     case 1:
-                        //아이템 구매창
+                        //아이템 구매창으로 이동
+                        //미구현
                         break;
+                    //그 외 명령어 입력시 출력
                     default:
                         Console.WriteLine("잘못된 입력입니다");
                         break;
