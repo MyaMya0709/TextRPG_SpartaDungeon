@@ -39,6 +39,7 @@ namespace TextRPG_SpartaDungeon
         string Name { get; }
         string Effect { get; }
         string Description { get; }
+        bool isEquipped { get; set; }
         void Equip(Player warrior); // 전사에게 아이템을 사용하는 메서드
     }
 
@@ -48,6 +49,7 @@ namespace TextRPG_SpartaDungeon
         public string Name => "낡은 검";
         public string Effect => "공격력 + 2";
         public string Description => "쉽게 볼 수 있는 낡은 검 입니다.";
+        public bool isEquipped => false;
         public void Equip(Player warrior)
         {
             Console.WriteLine($"{Name}을 장착합니다.");
