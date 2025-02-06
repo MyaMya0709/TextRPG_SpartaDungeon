@@ -189,10 +189,12 @@ namespace TextRPG_SpartaDungeon
             Console.Clear();
             Console.WriteLine("인벤토리\n보유 중인 아이템을 관리할 수 있습니다.\n");
             Console.WriteLine("\n[아이템 목록]");
+
             foreach (Item item in itemlist.items)
             {
                 Console.WriteLine($"{item.Name}|{item.Effect}|{item.Description}");
             }
+
             Console.WriteLine("\n1. 장착관리");
             Console.WriteLine("0. 나가기\n");
             Console.WriteLine("\n원하시는 행동을 입력해주세요.\n>>");
